@@ -1,13 +1,16 @@
 @import url(../../vendor/fonts.css);
 
 .app {
-  background-color: #fcf5e5;
-  min-height: 100vh;
   margin: 0;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-family: CabinetGrotesk, Arial, Helvetica, sans-serif;
   font-weight: 700;
   letter-spacing: 1px;
-  font-size: 40px;
+}
+
+.app__content {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .app__section {
